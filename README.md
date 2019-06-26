@@ -2,6 +2,8 @@
 
 This repository contains supplementary material (code and data) for the paper: *"Active Semi-Supervised Overlapping Community Finding with Pairwise Constraints"* (2019).
 
+The algorithm implementations require Python 3.x and the [NetworkX](https://networkx.github.io/) library.
+
 ### SLPA:
 
 To run an implementation of the original Speaker-listener Label Propagation Algorithm (SLPA) from Xie et al (2011):

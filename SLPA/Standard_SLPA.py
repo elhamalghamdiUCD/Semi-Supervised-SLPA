@@ -5,9 +5,9 @@ from collections import defaultdict
 import sys
 
 """
-    Sample usage:
+Sample usage:
 
-    python Standerd_SLPA.py network.dat
+python Standard_SLPA.py network.dat R
 
 """
 
@@ -103,7 +103,7 @@ def main():
     G = nx.read_edgelist(fh)
     G.nodes()
     communities = {}
-    communities =find_communities(G, 100, float(sys.argv[2]))
+    communities = find_communities(G, 100, float(sys.argv[2]))
     for value in communities:
         value_sort=sorted(list(communities[value]))
         for subvalue in value_sort:

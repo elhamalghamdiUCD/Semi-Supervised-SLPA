@@ -96,7 +96,7 @@ Required arguments:
 
 ### To run AC-SLPA with Outlier detection only (SVM-IF)
 
-```python AC_SLPA_denoise_SVM_ISO.py network.dat community.dat R Max_budget Noise_Percentage Termination```
+```python AC_SLPA_denoise_SVM_ISO.py network.dat community.dat R Max_budget Noise_Percentage Termination min_chunck_size```
 
 Required arguments:
 

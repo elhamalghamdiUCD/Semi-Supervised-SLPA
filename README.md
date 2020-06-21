@@ -60,8 +60,7 @@ Required arguments:
 - AE_Model_Must: the autoencoder architecture for cleaning must-link constraints.
 - AE_Model_Cannot: the autoencoder architecture for cleaning cannot-link constraints.
 - Termination: the minimum number of pairwise constraints are chosen at each iteration, if it is less than the given 'Termination' value, terminate the loop and continue to use the selected pairwise constraints. 
-- min_chunck_size: the minimum size of pairwise constraints chunck chosen at each iteration to be used with autoencoder models
-
+- min_chunck_size: the minimum size of pairwise constraints chunck chosen at each iteration to be used with outlier detection models including autoencoders 
 
 ### To run AC-SLPA with Encoder Function + Outlier detection (SVM-IF)
 
@@ -77,8 +76,7 @@ Required arguments:
 - AE_Model_Must: the autoencoder architecture for cleaning must-link constraints.
 - AE_Model_Cannot: the autoencoder architecture for cleaning cannot-link constraints.
 - Termination: the minimum number of pairwise constraints are chosen at each iteration, if it is less than the given 'Termination' value, terminate the loop and continue to use the selected pairwise constraints. 
-- min_chunck_size: the minimum size of pairwise constraints chunck chosen at each iteration to be used with autoencoder models
-
+- min_chunck_size: the minimum size of pairwise constraints chunck chosen at each iteration to be used with outlier detection models including autoencoders 
 
 ### To run AC-SLPA with Autoencoders(AE)
 
@@ -94,7 +92,7 @@ Required arguments:
 - AE_Model_Must: the autoencoder architecture for cleaning must-link constraints.
 - AE_Model_Cannot: the autoencoder architecture for cleaning cannot-link constraints.
 - Termination: the minimum number of pairwise constraints are chosen at each iteration, if it is less than the given 'Termination' value, terminate the loop and continue to use the selected pairwise constraints. 
-- min_chunck_size: the minimum size of pairwise constraints chunck chosen at each iteration to be used with autoencoder models
+- min_chunck_size: the minimum size of pairwise constraints chunck chosen at each iteration to be used with outlier detection models including autoencoders 
 
 ### To run AC-SLPA with Outlier detection only (SVM-IF)
 
@@ -108,3 +106,4 @@ Required arguments:
 - Max_budget: the maximum constraints budget for annotaion, given as precentage of the total constraints - e.g. 1% would be (0.01), 0.5% would be (0.005) etc
 - Noise_Percentage: the percentage of noise added to constraints by randomly flipping the labels of a subset of must-link and cannot-link pairs.
 - Termination: the minimum number of pairwise constraints are chosen at each iteration, if it is less than the given 'Termination' value, terminate the loop and continue to use the selected pairwise constraints. 
+- min_chunck_size: the minimum size of pairwise constraints chunck chosen at each iteration to be used with outlier detection models

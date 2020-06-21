@@ -1,0 +1,11 @@
+*03/29/18 - Graph Utility functions*
+	- Function to compute Transition Probabilities
+	
+	- Function to generate biased random walks and form a text corpus
+
+*03/30/18 - Generated embeddings*
+	- Code refactoring, processing cmd line args and generating node embeddings
+
+*03/30/18 - Readme updated*
+	- Usage instructions, pre-requisites
+

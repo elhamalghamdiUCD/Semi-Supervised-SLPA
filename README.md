@@ -46,7 +46,8 @@ Required arguments:
 
 ### AC-SLPA with Cleaning Methods:
 
-To run AC-SLPA with Hybrid (Autoencoder - Encoder Function+IF)
+### To run AC-SLPA with Hybrid (Autoencoder - Encoder Function+IF)
+
 ```python AC_SLPA_denoise_hybrid.py network.dat community.dat R Max_budget Noise_Percentage AE_Model_Must AE_Model_Cannot Termination min_chunck_size```
 
 Required arguments:
@@ -60,9 +61,9 @@ Required arguments:
 - AE_Model_Cannot: the autoencoder architecture for cleaning cannot-link constraints.
 - Termination: the minimum number of pairwise constraints are chosen at each iteration, if it is less than the given 'Termination' value, terminate the loop and continue to use the selected pairwise constraints. 
 - min_chunck_size: the minimum size of pairwise constraints chunck chosen at each iteration to be used with autoencoder models
-To run AC-SLPA with Autoencoders(AE)
 
-To run AC-SLPA with Encoder Function + Outlier detection (SVM-IF)
+
+### To run AC-SLPA with Encoder Function + Outlier detection (SVM-IF)
 
 ```python AC_SLPA_denoise_AE_SVM_ISO.py network.dat community.dat R Max_budget Noise_Percentage AE_Model_Must AE_Model_Cannot Termination min_chunck_size```
 
@@ -79,7 +80,7 @@ Required arguments:
 - min_chunck_size: the minimum size of pairwise constraints chunck chosen at each iteration to be used with autoencoder models
 
 
-To run AC-SLPA with Autoencoders(AE)
+### To run AC-SLPA with Autoencoders(AE)
 
 ```python AC_SLPA_denoise_AE.py network.dat community.dat R Max_budget Noise_Percentage AE_Model_Must AE_Model_Cannot Termination min_chunck_size```
 
@@ -95,7 +96,8 @@ Required arguments:
 - Termination: the minimum number of pairwise constraints are chosen at each iteration, if it is less than the given 'Termination' value, terminate the loop and continue to use the selected pairwise constraints. 
 - min_chunck_size: the minimum size of pairwise constraints chunck chosen at each iteration to be used with autoencoder models
 
-To run AC-SLPA with Outlier detection only (SVM-IF)
+### To run AC-SLPA with Outlier detection only (SVM-IF)
+
 ```python AC_SLPA_denoise_SVM_ISO.py network.dat community.dat R Max_budget Noise_Percentage Termination```
 
 Required arguments:
